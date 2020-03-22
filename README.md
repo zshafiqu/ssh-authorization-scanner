@@ -20,11 +20,11 @@ exposed system details in JSON format. The system details that are provided are 
 - See provided usage and options below, username and timeout values are optional with predefined defaults
 
 ### Usage
-  ssh_scanner.py -h | --help
-  ssh_scanner.py (--sshpass=<sshpass> --rhosts=<rhosts>) [--sshtimeout=<sshtimeout>] [--sshuser=<sshuser>]
+  ssh_scanner.py -h | --help  
+  ssh_scanner.py (--sshpass=<sshpass> --rhosts=<rhosts>) [--sshtimeout=<sshtimeout>] [--sshuser=<sshuser>]  
 
 ## Options
-  --sshuser=<sshuser>        Username [default: root]
-  --sshpass=<sshpass>        Password
-  --rhosts=<rhosts>          List of targets single ip per line (similar to nmap -iL)
-  --sshtimeout=<sshtimeout>  Timeout for each ssh attempt [default: 5]
+  --sshuser=<sshuser>        Username [default: root]  
+  --sshpass=<sshpass>        Password  
+  --rhosts=<rhosts>          List of targets single ip per line (similar to nmap -iL)  
+  --sshtimeout=<sshtimeout>  Timeout for each ssh attempt [default: 5]  
