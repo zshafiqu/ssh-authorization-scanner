@@ -16,22 +16,6 @@ import paramiko
 import concurrent.futures
 from docopt import docopt
 # ----------------------
-'''
-Preliminary notes –
-    Program Requirements :
-        We have some credential (could be a password, token, etc) that got exposed to the public
-        We want to check if any internal systems use this credential for SSH
-        If this credential is used, we need to get sys details and dump them to a JSON file
-        We have a list of remote hosts to check, expect to scan 200,000 systems
-
-    Procedure :
-        Create a pool of workers to give a remote host
-            For each target remote host
-                Attempt an SSH connection using the paramiko module
-                If connection is successful, this credential is being used
-                    Gather OS details, dump to JSON file
-'''
-# ----------------------
 def get_hosts_from_file(filename):
     # For each line in the file, parse as list item
     with open(filename) as file:
