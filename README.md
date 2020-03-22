@@ -25,7 +25,7 @@ exposed system details in JSON format. The system details that are provided are 
   ssh_scanner.py (--sshpass=&lt;sshpass&gt; --rhosts=&lt;rhosts&gt;) [--sshtimeout=&lt;sshtimeout&gt;] [--sshuser=&lt;sshuser&gt;]  
 
 ## Options
-  --sshuser=&lt;sshuser&gt;        Username [default: root]  
-  --sshpass=&lt;sshpass&gt;        Password  
-  --rhosts=&lt;rhosts&gt;          List of targets single ip per line (similar to nmap -iL)  
-  --sshtimeout=&lt;sshtimeout&gt;  Timeout for each ssh attempt [default: 5]  
+  --sshuser=&lt;sshuser&gt;         Username [default: root]  
+  --sshpass=&lt;sshpass&gt;         Password  
+  --rhosts=&lt;rhosts&gt;           List of targets single ip per line (similar to nmap -iL)  
+  --sshtimeout=&lt;sshtimeout&gt;   Timeout for each ssh attempt [default: 5]  
