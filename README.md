@@ -1,4 +1,3 @@
-# SSH SCANNER
 ## WARNING
 - *ACCESSING SYSTEMS WITHOUT PERMISSION IS ILLEGAL*  
 
@@ -23,13 +22,13 @@ exposed system details in JSON format. The system details that are provided are 
 ## Usage
 ```
   ssh_scanner.py -h | --help  
-  ssh_scanner.py (--sshpass=&lt;sshpass&gt; --rhosts=&lt;rhosts&gt;) [--sshtimeout=&lt;sshtimeout&gt;] [--sshuser=&lt;sshuser&gt;]  
+  ssh_scanner.py (--sshpass=<sshpass> --rhosts=<rhosts>) [--sshtimeout=<sshtimeout>] [--sshuser=<sshuser>]   
 ```
 
 ## Options
 ```
-  --sshuser=&lt;sshuser&gt;         Username [default: root]  
-  --sshpass=&lt;sshpass&gt;         Password  
-  --rhosts=&lt;rhosts&gt;           List of targets single ip per line (similar to nmap -iL)  
-  --sshtimeout=&lt;sshtimeout&gt;   Timeout for each ssh attempt [default: 5]  
+  --sshuser=<sshuser>        Username [default: root]  
+  --sshpass=<sshpass>        Password  
+  --rhosts=<rhosts>          List of targets single ip per line (similar to nmap -iL)  
+  --sshtimeout=<sshtimeout>  Timeout for each ssh attempt [default: 5]  
 ```
